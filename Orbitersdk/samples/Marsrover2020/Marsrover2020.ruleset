@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="Für Marsrover 2020 angepasste native Regeln" Description="Diese Regeln zielen auf die kritischsten und häufigsten Probleme im nativen Code ab, einschließlich potenzieller Sicherheitslücken und Anwendungsabstürze. Der Regelsatz sollte in allen benutzerdefinierten Regelsätzen enthalten sein, die Sie für Ihre eigenen Projekte erstellen. Dieser Regelsatz ist für die Verwendung mit Visual Studio Professional Edition und höher vorgesehen." ToolsVersion="16.0">
   <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="CA1823" Action="Warning" />
     <Rule Id="C26100" Action="Warning" />
     <Rule Id="C26101" Action="Warning" />
     <Rule Id="C26110" Action="Warning" />

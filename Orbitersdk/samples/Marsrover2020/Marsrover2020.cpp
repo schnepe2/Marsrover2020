@@ -53,6 +53,7 @@ static TOUCHDOWNVTX tdvtx[ntdvtx] = {
 // Constructor
 MSL_ROVER::MSL_ROVER(OBJHANDLE hObj, int fmodel) : VESSEL4(hObj, fmodel)
 {
+	LR2 = NULL;
 	LIFT_SPEED = .05;
 	HGA_status = DOOR_UP;
 	HGA1_proc = 0;

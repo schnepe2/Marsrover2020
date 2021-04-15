@@ -49,6 +49,7 @@
     <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-s "Marsrover2020Test"</LocalDebuggerCommandArguments>
     <OutDir>..\..\..\Modules\</OutDir>
     <TargetName>Marsrover2020</TargetName>
+    <CodeAnalysisRuleSet>Marsrover2020.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerCommand Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\..\..\Modules\Server\orbiter.exe</LocalDebuggerCommand>
@@ -57,6 +58,7 @@
     <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-s "Marsrover2020Test"</LocalDebuggerCommandArguments>
     <OutDir>..\..\..\Modules\</OutDir>
     <TargetName>Marsrover2020</TargetName>
+    <CodeAnalysisRuleSet>Marsrover2020.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
