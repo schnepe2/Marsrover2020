@@ -1,0 +1,173 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RMS DIALOGEX 0, 0, 109, 364
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "MARS 2020 Control"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Head",IDC_STATIC,2,7,101,45
+    PUSHBUTTON      "Button1",IDC_WRIST_ROLLRIGHT,33,24,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_WRIST_ROLLLEFT,57,24,16,14,BS_ICON
+    GROUPBOX        "Elbow",IDC_STATIC,3,54,101,45
+    PUSHBUTTON      "Button1",IDC_ELBOW_PITCHUP,22,69,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_ELBOW_PITCHDOWN,68,68,16,14,BS_ICON
+    GROUPBOX        "Shoulder",IDC_STATIC,3,104,101,45
+    PUSHBUTTON      "Button1",IDC_SHOULDER_PITCHUP,27,122,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_SHOULDER_PITCHDOWN,65,122,16,14,BS_ICON
+    PUSHBUTTON      "Stow",IDC_STOW,28,183,46,14
+    GROUPBOX        "",IDC_STATIC,3,172,101,36
+    PUSHBUTTON      "Button1",IDC_WRIST_PITCHUP,10,24,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_WRIST_PITCHDOWN,81,24,16,14,BS_ICON
+    GROUPBOX        "Base",IDC_STATIC,2,149,101,26
+    PUSHBUTTON      "Button1",IDC_BASELEFT,25,153,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASERIGHT,63,153,16,14,BS_ICON
+    GROUPBOX        "HGA",IDC_STATIC,3,210,101,51
+    PUSHBUTTON      "Button1",IDC_SHOULDER_PITCHUP2,30,219,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_SHOULDER_PITCHDOWN2,30,238,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASELEFT2,8,230,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASERIGHT2,53,231,16,14,BS_ICON
+    GROUPBOX        "CAMERA",IDC_STATIC,3,271,101,61
+    PUSHBUTTON      "Button1",IDC_BASELEFT3,17,296,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASERIGHT3,63,295,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_SHOULDER_PITCHUP3,61,214,36,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASELEFT4,39,280,16,14,BS_ICON
+    PUSHBUTTON      "Button1",IDC_BASELEFT5,38,312,16,14,BS_ICON
+    PUSHBUTTON      "Stow",IDC_STOW2,5,340,46,14
+    PUSHBUTTON      "Un Stow",IDC_STOW3,56,340,46,14
+END
+
+IDD_CTRL DIALOGEX 0, 0, 113, 78
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "SKYLAB II Control"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "wHICH ARM?",IDC_STATIC,0,0,102,30
+    PUSHBUTTON      "RMS Operation1",IDC_RMSOP1,0,0,113,21
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_UP                  ICON                    "icon1.ico"
+
+IDI_DOWN                ICON                    "down.ico"
+
+IDI_LEFT                ICON                    "ico00001.ico"
+
+IDI_RIGHT               ICON                    "ico00002.ico"
+
+IDI_RRIGHT              ICON                    "ico00003.ico"
+
+IDI_RLEFT               ICON                    "ico00004.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_RMS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 362
+    END
+
+    IDD_CTRL, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TKBKLABEL           BITMAP                  "Bitmaps\\tkbk_label.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_RMS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

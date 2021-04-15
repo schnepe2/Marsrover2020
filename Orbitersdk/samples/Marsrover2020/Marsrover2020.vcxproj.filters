@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Marsrover2020.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Marsrover2020.h" />
+    <ClInclude Include="MSLMESH.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\lib\DlgCtrl.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\lib\orbiter.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\lib\Orbitersdk.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="down.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="ico00001.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="ico00002.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="ico00003.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="ico00004.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Bitmaps\tkbk_label.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a127c228-366e-4686-b166-dfe05786801f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{35ef1bc6-c65d-41d9-b7fa-f8aa3439ac0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MSL.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
