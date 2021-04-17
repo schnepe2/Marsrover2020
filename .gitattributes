@@ -1,0 +1,11 @@
+# Handle line endings to be kept as-is (it's a Windows project anyhow).
+* text=false
+
+# These files are binary and should be left untouched
+# (binary is macro for -text -diff)
+*.dds           binary
+*.bmp           binary
+*.gif           binary
+*.ico           binary
+*.jpg           binary
+*.png           binary
